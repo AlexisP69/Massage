@@ -201,7 +201,6 @@ overflow-y: hidden;
     left: 10%;
     font-size: 55px;
     font-weight: lighter;
-    font-family:cursive;
 
 }
 .barre{
@@ -221,4 +220,14 @@ overflow-y: hidden;
     font-size: 30px;
     font-weight: 10;
     width:50vh;
+}
+
+#arrow {
+    position: fixed;
+    bottom: 5%;
+    margin-left: 50%;
+}
+
+#bottom:hover{
+    background: linear-gradient(to top, #a48d8c 40%, #0000 100%);
 }
