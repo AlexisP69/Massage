@@ -1,52 +1,129 @@
-#menu {
+#menuPhone {
     position: fixed;
-    right: -8.5em;
-    top: 50%;
-    width: 8em;
-    background: hsla(80, 90%, 40%, 0.7);
+    right: -11.5em;
+    top: 48%;
+    background: #725560;
+    border-radius: 25px;
     color: white;
     margin: -3em 0 0 0;
     padding: 0.5em 0.5em 0.5em 2.5em;
 }
 
-#menu:hover {
+ul#menuPhone {
+    width: 13%;
+}
+
+#menuPhone:hover {
     right: 0
 }
 
-#menu {
+#menuPhone {
     transition: 0.2s
 }
 
-#menu p {
+p {
+    margin-left: 20px;
+}
+
+#menuPhone p {
     position: relative;
     left: 0;
 }
 
-#menu a:focus {
+#menuPhone a:focus {
     left: -7em;
-    background: hsla(80, 90%, 40%, 0.7);
+    background: #725560;
 }
 
-#menu p {
+#menuPhone p {
     transition: 0.2s
 }
 
-#menu:hover a:focus {
+#menuPhone:hover a:focus {
     left: 0;
     background: none;
 }
 
-#menu {
+#menuPhone {
     margin: 0;
     transform: translate(0, -50%);
 }
 
-#menu {
-    margin: -3em 0 0 0
+li {
+    margin-right: 0px;
+}
+
+li p {
+    font-size: 15px;
+}
+
+#menuPhone li::marker {
+    content: url("326545_call_phone_icon.svg");
 }
 
 @supports (transform: translate(0, -50%)) {
-    #menu {
+    #menuPhone {
+        margin-top: 0;
+        transform: translate(0, -50%);
+    }
+}
+
+#menuMaps {
+    position: fixed;
+    right: -13.3em;
+    top: 60%;
+    background: #725560;
+    border-radius: 25px;
+    color: white;
+    margin: -3em 0 0 0;
+}
+
+ul#menuMaps {
+    width: 15.5%;
+}
+
+#menuMaps:hover {
+    right: 0
+}
+
+#menuMaps {
+    transition: 0.2s
+}
+
+#menuMaps p {
+    position: relative;
+    left: 0;
+}
+
+#menuMaps a:focus {
+    left: -7em;
+    background: #725560;
+}
+
+#menuMaps p {
+    transition: 0.2s
+}
+
+#menuMaps:hover a:focus {
+    left: 0;
+    background: none;
+}
+
+#menuMaps {
+    margin: 0;
+    transform: translate(0, -50%);
+}
+
+#menuMaps li::marker {
+    content: url("../Static/location-point-svgrepo-com.svg");
+}
+
+#menuMaps #test::marker {
+    margin-bottom: 50px;
+}
+
+@supports (transform: translate(0, -50%)) {
+    #menuMaps {
         margin-top: 0;
         transform: translate(0, -50%);
     }
@@ -97,4 +174,9 @@ body {
     border-radius: 20px;
     font-weight: lighter;
     color: #fff;
+}
+
+#bottom {
+    position: fixed;
+    background: linear-gradient(to bottom, #33ccff 0%, #0000 100%);
 }
