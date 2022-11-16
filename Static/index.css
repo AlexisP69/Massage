@@ -132,6 +132,7 @@ ul#menuMaps {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 body {
+    margin: 0;
     background-color: #e7d7c6;
 }
 
@@ -140,17 +141,26 @@ body {
     justify-content: space-between;
 }
 
-#fond {
-    margin-left: 520px;
-    height: 99vh;
-    width: 110vh;
+.br{
+    color:red;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.photo{
+zoom:70%;
+margin-left:70vh;
+height: 140vh;
+overflow-x: hidden;
+overflow-y: hidden;
 }
 
 
 .navMenu {
     position: absolute;
-    top: 12%;
-    left: 25%;
+    top: 6%;
+    left: 28%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -164,7 +174,7 @@ body {
     font-size: 15px;
     display: inline-block;
     justify-content: space-between;
-    width: 110px;
+    width: 120px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
@@ -177,6 +187,38 @@ body {
 }
 
 #bottom {
+    bottom:0%;
     position: fixed;
-    background: linear-gradient(to bottom, #33ccff 0%, #0000 100%);
+    height: 25%;
+    width: 100%;
+    background: linear-gradient(to top, #a48d8c 20%, #0000 100%);
+}
+
+.title{
+    color:#515148;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 55px;
+    font-weight: lighter;
+    font-family:cursive;
+
+}
+.barre{
+    position: fixed;
+    margin-top: 21.5%;
+    margin-left: 10%;
+    height: 0.8%;
+    width: 15%;
+    background-color: #515148;
+}
+.description{
+    
+    color:#a68f8d;
+    position: absolute;
+    top: 42%;
+    left: 9%;
+    font-size: 30px;
+    font-weight: 10;
+    width:50vh;
 }
