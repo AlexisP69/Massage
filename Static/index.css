@@ -1,5 +1,49 @@
-#fond{
-    margin-left: 200px;
-    height: 100%;
-    width:100%;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+body{
+    background-color: #e7d7c6;
 }
+.fond{
+    display: flex;
+    justify-content:space-between;
+}
+#fond{
+    margin-left: 520px;
+    height: 99vh;
+   width: 110vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.navMenu {
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.navMenu a {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+  color: #363531;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  justify-content: space-between;
+  width: 110px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  background-color: #7a7a6d;
+  border-radius: 20px;
+  font-weight: lighter;
+  color: #fff;
+}
+
